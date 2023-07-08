@@ -39,7 +39,7 @@ jobs:
     # 1. This repository isn't the template repository.
     # 2. The step is currently 2.
     # Reference: https://docs.github.com/en/actions/learn-github-actions/contexts
-    # Reference: https://docs.github.com/en/actions/learn-github-actions/expressions
+    # Reference: https://docs.github.com/en/actions/learn-github-actiohttps://docs.github.com/en/actions/expressions
     if: >-
       ${{ !github.event.repository.is_template
           && needs.get_current_step.outputs.current_step == 2 }}
